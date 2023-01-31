@@ -1,0 +1,60 @@
+extends base.pug
+
+block scripts
+  script(src='/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#intro_section 
+        div.intro_section_heading WELCOME TO ABHI's DANCE ACADEMY 
+        div.intro_section_small Eat Sleep Dance Repeat  
+
+    section#mission_section 
+        div.mission_section_heading Our Mission
+            div.card_section 
+                div.card
+                    h3 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src="../static/background2.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe
+
+                div.card
+                    h3 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="../static/background3.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe
+
+                div.card
+                    h3 Expert Teaching
+                    div.card-box
+                        div.card-img
+                            img(src="../static/background4.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe
+
+    section#clients_section 
+        div#clients_section_heading Our Sponsors 
+        div#clients_section_clients 
+            div#client1.client 
+            img(src="../static/client1.png", alt="err loading img")
+            div#client2.client 
+            img(src="../static/client2.jpg", alt="err loading img")
+            div#client3.client 
+            img(src="../static/client3.jpg", alt="err loading img")
+            div#client4.client 
+            img(src="../static/client4.jpg", alt="err loading img")
+            div#client5.client 
+            img(src="../static/client5.jpg", alt="err loading img")
+            div#client6.client 
+            img(src="../static/client6.png", alt="err loading img")
+            div#client7.client 
+            img(src="../static/client7.jpg", alt="err loading img")
+            //- div#client8.client 
+            //- img(src="../static/client8.jpg", alt="err loading img")

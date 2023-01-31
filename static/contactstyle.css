@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=PT+Serif:ital@1&family=Roboto+Slab&display=swap');
+
+.container{
+    background-color: rgba(128, 128, 128, 0.508);
+}
+
+.container h1{
+    font-family: 'Merriweather', serif;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+#myForm{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input.“name” {
+    font-family: 'PT Serif', serif;
+    width: 350px;
+    padding: 7px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="submit"] {
+    font-family: 'Roboto Slab';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    font-size: 18px;
+    height: 45px;
+    border: 3px solid rgb(189, 161, 5);
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgb(245, 224, 105);
+    color: indigo;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    transition: all 0.1s ease-in-out;
+}
+  
+  input[type="submit"]:hover{
+    background-color: rgb(243, 219, 84);
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
